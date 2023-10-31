@@ -86,13 +86,11 @@ def genre_genius_gui():
 
     # Function to handle genre selection
     def get_input(selected_value):
-        selected_genre = str(selected_value)
-        print(selected_genre)
+        selected_genre = str(selected_value)        
 
     # RadioButtons for genre selection
     for i, genre in enumerate(GENRES):
-        row, column = i % 10, i // 10
-        print(set_value.get())
+        row, column = i % 10, i // 10        
         tk.Radiobutton(root, text=genre, variable=set_value, value=genre, command=lambda : get_input(set_value.get())).grid(row=row + 1, column=column, sticky="W",pady=5)
 
     # Entry widget for number of movie recommendations
@@ -119,7 +117,7 @@ def genre_genius_gui():
             recommendation_list.config(state=tk.NORMAL)
             recommendation_list.delete('1.0', tk.END)
             number_of_movies = int(value)
-            print(number_of_movies)
+          
             if selected_genre and MIN_RECOMMENDATIONS <= number_of_movies <= MAX_RECOMMENDATIONS:
                 warning.config(text="")
                 warning.grid(row=1, column=5)
