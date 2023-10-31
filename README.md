@@ -15,9 +15,9 @@ GenreGenius is an intuitive movie recommendation application that harnesses the 
 
 ## Steps Involved
 
-- Web Scraping and parsing: sending HTTP request to  IMDB website to extract information such as movie name, movie genre, release year and IMDB rating.
+- Web Scraping and parsing: Sending HTTP request to  IMDb website to extract information such as movie name, movie genre, release year and IMDB rating.
 - Data Processing : Using pandas to clean, process and filter the dataframe.
-- Graphical User Interface (GUI) : creating a user interface which takes input through radio buttons and entry widget and dispalying the recommended movies in a text widget.
+- Graphical User Interface (GUI) : Creating a user interface which takes input through radio buttons and entry widget and dispalying the recommended movies in a text widget.
 
 ## Tech
 
@@ -41,16 +41,11 @@ GenreGenius is an intuitive movie recommendation application that harnesses the 
 
 - Clone the repository:
 ```git clone https://github.com/anjalipatel2022/Python-Project-Anjali.git```
-
 - Run the chatbot by executing main.py:  
 ```python main.py```
-
 - The GUI window will open, select one genre of your choice by clicking on the radio button. (Note: You can only select one genre at a time.)
-
-- Enter the number of movie recommendation you want. (Note: You can enetr a number between 1 to 10. If you enter a number beyond this range or a non-numeric value an error message will be displayed on UI)
-
-- Click the button to see The recommended movies  in the GUI along with Imdb rating nd release year
-
+- Enter the number of movie recommendation you want. (Note: You can enter a number between 1 to 10. If you enter a number beyond this range or a non-numeric value an error message will be displayed on UI)
+- Click the button to see The recommended movies in the GUI along with Imdb rating and release year
 - close the GUI once you have got the recommendations.
 
 
