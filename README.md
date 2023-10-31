@@ -43,10 +43,10 @@ GenreGenius is an intuitive movie recommendation application that harnesses the 
 ```git clone https://github.com/anjalipatel2022/Python-Project-Anjali.git```
 - Run the chatbot by executing main.py:  
 ```python main.py```
-- The GUI window will open, select one genre of your choice by clicking on the radio button. (Note: You can only select one genre at a time.)
+- GUI will take some time to open, once up select one genre of your choice by clicking on the radio button. (Note: You can only select one genre at a time.)
 - Enter the number of movie recommendation you want. (Note: You can enter a number between 1 to 10. If you enter a number beyond this range or a non-numeric value an error message will be displayed on UI)
 - Click the button to see The recommended movies in the GUI along with Imdb rating and release year
-- close the GUI once you have got the recommendations.
+- close the GUI once you have got the recommendations
 
 
     
